@@ -1,0 +1,9 @@
+{% extends 'main.html' %}
+
+{% block content %}
+<div class="videoWrapper">
+    <video src="{{ url_for('static', filename='test.mp4') }}" controls></video>
+    <h2>Welcome to our To Do List app!</h2>
+    <p>We provide a simple and intuitive way to keep track of your tasks and stay organized.</p>
+  </div>
+{% endblock %}
